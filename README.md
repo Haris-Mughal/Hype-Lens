@@ -1,73 +1,84 @@
-# Welcome to your Lovable project
+# 🚀 Hype-Lens
 
-## Project info
+**Hype-Lens** is a cutting-edge AI-powered web application built with the latest web technologies including Supabase, Vite, Tailwind CSS, and TypeScript. Designed for speed, scalability, and innovation, with amazing React UI components, making prototyping faster and smarter.
 
-**URL**: https://lovable.dev/projects/eee14411-fb21-4a0d-a654-280b1f88bb58
+---
 
-## How can I edit this code?
+## 🧠 Project Overview
 
-There are several ways of editing your application.
+- **Frontend**: Vite + React + TypeScript
+- **Styling**: Tailwind CSS
+- **Backend**: Supabase (PostgreSQL, Auth, Realtime)
+- **Build Tool**: npm
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/eee14411-fb21-4a0d-a654-280b1f88bb58) and start prompting.
+## ✨ Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🔐 Authentication with Supabase Auth
+- ⚡ Lightning-fast development with Vite + npm
+- 🎨 Fully responsive UI using Tailwind CSS
+- 📦 Modular and clean TypeScript codebase
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📦 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 1. Clone the repository
 
-Follow these steps:
+```bash
+git clone https://github.com/Haris-Mughal/Hype-Lens.git
+cd Hype-Lens
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 2. Install dependencies
+```
+npm install
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+> 💡 You can also use bun install or yarn if you’re not using npm.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 3. Configure Supabase
+1. Go to https://supabase.com and create a new project.
+2. Get your Supabase URL and anon/public key.
+3. Create a .env file in the root directory and add:
+```
+VITE_SUPABASE_URL=your-supabase-url
+VITE_SUPABASE_ANON_KEY=your-anon-key
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 4. Run the development server
+```
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app should now be running at `http://localhost:8080`.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🌐 Live Preview
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+> 💻 Explore the live prototype 
+> 🔗 [View Project](https://hype-lens.vercel.app)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 👨‍💻 Author
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Made with ❤️ by [**Haris Mughal**](https://github.com/Haris-Mughal)  
+🏆 International Hackathon Winner | 💻 Software Engineer 
+🎓 Stanford Code in Place SL Mentor | 🧠 CS50x Puzzle Day Winner  
+🌍 Actively contributing to the global tech community.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/eee14411-fb21-4a0d-a654-280b1f88bb58) and click on Share -> Publish.
+#@ 📬 Contact
+If you want to collaborate, connect, or ask anything tech-related, feel free to reach out via:
 
-## Can I connect a custom domain to my Lovable project?
+LinkedIn: [iamharisahsan](https://www.linkedin.com/in/iamharisahsan/)
+GitHub: [Haris Mughal](https://github.com/haris-mughal)
+Email: [harismirza3456@gmail.com](harismirza3456@gmail.com)
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+See ya 🤝
